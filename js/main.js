@@ -199,6 +199,7 @@
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
+    autoplayTimeout: 60000,
     loop: true,
     items: 1
   });
